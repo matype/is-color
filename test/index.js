@@ -42,3 +42,27 @@ test('isColor', function (t) {
   t.equal(color(str), true)
   t.end()
 })
+
+test('isColor', function (t) {
+  var str = 'currentColor'
+  t.equal(color(str), true)
+  t.end()
+})
+
+test('isColor', function (t) {
+  var str = 'currentColor'
+  t.equal(color(str), true)
+  t.end()
+})
+
+test('isColor', function (t) {
+  var str = 'inherit'
+  t.equal(color(str), true)
+  t.end()
+})
+
+test('isColor', function (t) {
+  var str = 'transparent'
+  t.equal(color(str), true)
+  t.end()
+})
