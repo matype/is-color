@@ -30,6 +30,10 @@ isColor('#ff') // false
 
 isColor('tomato') // true
 isColor('hoge') // false
+
+isColor('currentColor') // true
+isColor('inherit') // true
+isColor('transparent') // true
 ```
 
 ## License
