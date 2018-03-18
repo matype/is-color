@@ -17,14 +17,14 @@
   "author": "Masaaki Morishita",
   "license": "MIT",
   "dependencies": {
-    "css-color-names": "0.0.1",
-    "hex-color-regex": "^1.0.3",
+    "css-color-names": "^0.0.4",
+    "hex-color-regex": "^1.1.0",
     "hsl-regex": "^1.0.0",
     "hsla-regex": "^1.0.0",
     "rgb-regex": "^1.0.1",
     "rgba-regex": "^1.0.0"
   },
   "devDependencies": {
-    "tape": "^4.0.1"
+    "tape": "^4.9.0"
   }
 }
