@@ -1,6 +1,6 @@
 {
   "name": "is-color",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Check if a string is CSS color value",
   "main": "index.js",
   "scripts": {
