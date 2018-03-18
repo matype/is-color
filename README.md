@@ -40,4 +40,4 @@ isColor('transparent') // true
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Masaaki Morishita
+Copyright (c) 2015 - 2018 Masaaki Morishita
