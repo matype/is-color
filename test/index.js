@@ -31,6 +31,12 @@ test('isHex', function (t) {
   t.end()
 })
 
+test('isHex with alpha channel', function (t) {
+  var str = '#0000ffcc'
+  t.same(color.isHex(str), true)
+  t.end()
+})
+
 test('isKeyword', function (t) {
   var str = 'tomato'
   t.same(color.isKeyword(str), true)
