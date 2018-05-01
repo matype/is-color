@@ -1,3 +1,7 @@
+## v1.0.1
+
+- Revert Index.js to use ES5 code to avoid uglification errors [#1](https://github.com/morishitter/is-color/pull/1)
+
 ## v1.0.0
 
 - Upgrade dependencies
