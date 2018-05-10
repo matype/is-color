@@ -7,9 +7,27 @@ test('isRgb', function (t) {
   t.end()
 })
 
+test('isRgb', function (t) {
+  const str = 'rgb(256, 0, 0)'
+  t.not(color.isRgb(str), true)
+  t.end()
+})
+
 test('isRgba', function (t) {
   const str = 'rgba(255, 0, 0, .5)'
   t.same(color.isRgba(str), true)
+  t.end()
+})
+
+test('isRgba', function (t) {
+  const str = 'rgba(256, 0, 0, .5)'
+  t.not(color.isRgba(str), true)
+  t.end()
+})
+
+test('isRgba', function (t) {
+  const str = 'rgba(255, 0, 0, 1.5)'
+  t.not(color.isRgba(str), true)
   t.end()
 })
 
