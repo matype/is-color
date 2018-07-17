@@ -10,7 +10,7 @@ const isRgba = function (str) { return rgbaRegex({exact: true}).test(str) }
 const isHsl = function (str) { return hslRegex({exact: true}).test(str) }
 const isHsla = function (str) { return hslaRegex({exact: true}).test(str) }
 const isHex = function (str) { return hexRegex({exact: true}).test(str) }
-const isKeyword = function (str) { return keywords[str] ? true : false }
+const isKeyword = function (str) { return keywords.hasOwnProperty(str) }
 const isInherit = function (str) { return str === 'inherit' }
 const isCurrentColor = function (str) { return str === 'currentColor' || str === 'currentcolor' }
 const isTransparent = function (str) { return str === 'transparent' }
